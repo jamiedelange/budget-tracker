@@ -1,10 +1,10 @@
 let db;
 
-const request = indexedDB.open('transaction', 1);
+const request = indexedDB.open('budget_tracker', 1);
 
 request.onopgradeneeded = function(event) {
     const db = event.target.result;
-    db.createObjectStore('transaction', { autoIncrement: true });
+    db.createObjectStore('new_transaction', { autoIncrement: true });
 };
 
 request.onsuccess = function(event) {
@@ -32,7 +32,7 @@ function uploadTransaction() {
 
     getAll.onsuccess = function() {
         if (getAll.result.length > 0) {
-            fetch('/api/pizzas', {
+            fetch('/api/transaction', {
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
                 headers: {
