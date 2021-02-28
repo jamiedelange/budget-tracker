@@ -32,5 +32,5 @@
 
   E-mail me at jamie.de.lange@mac.com if you have any questions!
   
-  #Screenshot of application:
+  # Screenshot of application:
   ![A screenshot of the functioning application](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tozicbtxfn9kzj1rnq7r.png)
