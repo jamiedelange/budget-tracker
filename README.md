@@ -3,7 +3,6 @@
   ![license badge](https://img.shields.io/badge/license-MIT-blue)
 
   # Description
-
   This is a budget-tracking application designed for online and offline use
 
   # Table of Contents
@@ -14,7 +13,7 @@
   * [Licenses](#licenses)
 
   # Installation Instructions
-  none
+  None. Deployed link: https://hidden-shelf-19065.herokuapp.com/
 
   # Usage Information
   Enter a transaction and transaction amount, and click add or subtract funds. The transactions will appear in a list and a chart displaying transaction history
@@ -32,3 +31,6 @@
   GitHub username: [jamiedelange](https://github.com/jamiedelange)
 
   E-mail me at jamie.de.lange@mac.com if you have any questions!
+  
+  #Screenshot of application:
+  ![A screenshot of the functioning application](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tozicbtxfn9kzj1rnq7r.png)
